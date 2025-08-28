@@ -1,56 +1,57 @@
 Data analytics final project: Full Insights Summary
-1. Data Understanding and Cleaning
+Project Overview
 
-The dataset was first explored to check its structure, missing values, and inconsistencies.
+The main goals of this project were to:
 
-Duplicate entries and irrelevant columns were removed to ensure accurate analysis.
+Perform data cleaning and preprocessing on raw e-commerce data to ensure accuracy.
 
-Date and numeric columns were formatted properly, and categorical values were standardized.
+Explore product features such as retail price, discounted price, discount percentage, and ratings.
+
+Visualize the data using Matplotlib, Seaborn, and Plotly.
+
+Identify trends in product categories, pricing patterns, and brand distribution.
+
+Project Steps
+1. Data Cleaning and Preprocessing
+
+Removed duplicates and irrelevant columns.
+
+Corrected formats for numeric and date columns.
+
+Handled missing or inconsistent data for accurate analysis.
 
 2. Exploratory Data Analysis (EDA)
 
-We examined each variable individually (univariate analysis) to understand distribution and key statistics.
+Analyzed individual variables (univariate) to see distributions.
 
-Relationships between two variables (bivariate) and multiple variables (multivariate) were explored using groupby, pivot tables, and correlation analysis.
+Checked relationships between two or more variables (bivariate/multivariate) using groupby, pivot tables, and correlations.
 
-Outliers and unusual patterns were detected, helping identify areas that need attention.
+Detected outliers and unusual patterns in sales, price, and ratings.
 
 3. Visualizations
 
-Various charts were created to visualize the data clearly:
+Created bar charts, line charts, pie/donut charts, histograms, box plots, scatter plots, bubble charts, heatmaps, and pair plots.
 
-Bar charts & stacked bars – compare categories and sub-categories.
+All visuals had clear titles, labels, and legends to make interpretation easy.
 
-Line charts – show trends over time.
-
-Pie & donut charts – display proportions of categories.
-
-Histograms & violin plots – show distribution of sales and profit.
-
-Scatter & bubble charts – explore relationships between metrics.
-
-Heatmaps & pair plots – check correlations and patterns.
-
-All charts included clear titles, labels, and legends for easy understanding.
+Subplots were used where necessary to compare multiple visuals together.
 
 4. Key Findings
 
-A few categories and sub-categories dominate total sales, while others contribute less.
+Certain categories and brands dominate sales and revenue.
 
-High sales do not always mean high profit; some categories generate low or negative profit despite good sales.
+High sales do not always correspond to high profit or high ratings.
 
-Monthly trends showed peaks in certain periods, suggesting possible seasonal effects.
+Pricing patterns and discounts vary across categories and brands.
 
-Correlation analysis indicated a strong positive link between sales and profit, but other factors showed weak relationships.
-
-Outliers in sales and profit highlight unusual transactions that could affect overall analysis.
+Seasonal trends and peaks were observed in sales and product demand.
 
 5. Recommendations
 
-Focus on high-profit categories instead of only high sales to improve overall business performance.
+Focus on high-profit categories and popular brands.
 
-Investigate loss-making sub-categories to understand the reasons behind low profit.
+Investigate low-performing or low-rated products to improve sales.
 
-Plan inventory and marketing campaigns according to observed seasonal trends.
+Plan promotions and inventory based on observed seasonal trends.
 
-Use segmentation (like location or customer type) for more targeted strategies in future analysis.
+Use insights to optimize pricing and discount strategies for better profitability
